@@ -18,7 +18,7 @@ Velocity property ranges from 0 to 127
 Time and Duration properties range from 0 to infinity.
 
 You can create Sheet objects using a list of Message objects.
-
+```python
 s = Sheet()
-
 s.load_messages([Message(4,50,12,45), Message(10,100,5,5)])
+```
