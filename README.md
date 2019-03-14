@@ -8,7 +8,9 @@ You can easily load midi files using "load_midis" function of a Sheet object, or
 Basic implementation:
 
 s = Sheet()
+
 s.load_midis("./midi_files")
+
 s.save_midi("./new_midi_file.midi")
 
 Message objects have 4 properties: note, time, velocity, duration.
@@ -20,4 +22,5 @@ Time and Duration properties range from 0 to infinity.
 You can create Sheet objects using a list of Message objects.
 
 s = Sheet()
+
 s.load_messages([Message(4,50,12,45), Message(10,100,5,5)])
