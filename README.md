@@ -6,13 +6,11 @@ Sheet object holds a list of Message objects.
 You can easily load midi files using "load_midis" function of a Sheet object, or turn Sheet objects into a midi file using "save_midi".
 
 Basic implementation:
-
+```
 s = Sheet()
-
 s.load_midis("./midi_files")
-
 s.save_midi("./new_midi_file.midi")
-
+```
 Message objects have 4 properties: note, time, velocity, duration.
 All of them are integers. 
 Note property ranges from 0 to 87.
