@@ -33,4 +33,4 @@ s.load_messages([Message(4,50,12,45), Message(10,100,5,5)])
 n = s.to_array()
 ```
 
-Check out the source file for function parameters and such.
+Check out the source file for more information about function parameters and such.
